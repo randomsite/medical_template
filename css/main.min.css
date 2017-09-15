@@ -1633,12 +1633,13 @@ blockquote:before {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
+  -webkit-justify-content: flex-start;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: flex-start; }
   .menu ul li {
     display: inline-block;
-    list-style-type: none; }
+    list-style-type: none;
+    margin-left: 30px;}
     .menu ul li a {
       color: #000;
       font-family: Lato;
